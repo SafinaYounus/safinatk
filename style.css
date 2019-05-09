@@ -1,0 +1,30 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+
+p{
+    font-family: 'Source Sans Pro', sans-serif,Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family:'Source Sans Pro', sans-serif,Arial, Helvetica, sans-serif;
+}
+li{
+    display: inline;
+    white-space:normal;
+    font-size: 0.5;
+    font-family:'Source Sans Pro', sans-serif ,Arial, Helvetica, sans-serif;
+
+}
+section{
+display:flex;
+}
+button{
+    background-color :red;
+}
+button:hover{
+background-color:#ec4b75;
+cursor: pointer;
+padding:30px;
+border:none;
+}
+ol{
+    font-weight: bold;
+}
