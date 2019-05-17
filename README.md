@@ -30,4 +30,4 @@ You will find a `Download ZIP` button on this repo. Click it to download, and th
 
 mockup
 
-https://safinayounus.github.io/safinatk/.
+https://safinayounus.github.io/test-9thmay2019/
