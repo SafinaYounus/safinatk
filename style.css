@@ -1,30 +1,130 @@
 /* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+#ham {
+    display: none;
+}
 
-p{
-    font-family: 'Source Sans Pro', sans-serif,Arial, Helvetica, sans-serif;
-}
-h2{
-    font-family:'Source Sans Pro', sans-serif,Arial, Helvetica, sans-serif;
-}
-li{
+nav ul li {
     display: inline;
-    white-space:normal;
-    font-size: 0.5;
-    font-family:'Source Sans Pro', sans-serif ,Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    padding: 40px;
+    font-size: 20px;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:20px;
+    
+}
+img#panda {
+    height: 60px;
+    width: 90px;
+    position: fixed;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.432);
 
 }
-section{
-display:flex;
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: white;
+    height: 80px;
+    align-items: center;
+
 }
-button{
-    background-color :red;
+body {
+    background-color: #f7f7f7;
 }
-button:hover{
-background-color:#ec4b75;
-cursor: pointer;
-padding:30px;
-border:none;
+main {
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px 130px;
+    padding: 0px 120px;
 }
-ol{
+figure {
+    
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row; 
+    border-bottom: 2px solid rgba(128, 128, 128, 0.39);
+    padding-bottom: 30px;
+
+}
+figure div {
+    display: inline;
+    margin: 6px;
+}
+div#book-detail h3 {
+    letter-spacing:0.5em;
+    font-weight: bolder;
+    font-size: 20px;
+}
+div#detail p {
+    border-top:4px solid rgba(128, 128, 128, 0.39);
+    font-size: 20px;
+
+}
+div#book-detail article{
+    color:grey;
     font-weight: bold;
+    border: none;
+}
+div#book-detail {
+    margin: 30px 0px;
+    display: block;
+}
+
+
+figure img {
+    height: 500px;
+    width: 300px;
+    border-left: 5px solid rgba(128, 128, 128, 0.39);
+    border-right: 5px solid rgba(128, 128, 128, 0.39);
+    margin-right: 30px;
+
+
+}
+.fas-fa-star {
+    color: #f7b733;
+    font-size:20px;
+
+}
+button {
+    background-color: #f2849e;
+    border: none;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 1em 1.5em;
+
+}
+button:hover {
+    background-color:#ed4b74;
+}
+div#avaliale {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.39);
+
+}
+div#details{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.39);
+}
+div#details ul li {
+    list-style-type: none;  
+    margin: 3px 0px;  
+}
+
+article {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.39);
+    
 }
