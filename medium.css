@@ -1,0 +1,119 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+#ham {
+    position: fixed;
+    left: 90%;
+    display: block;
+    font-size: 40px;
+    padding: 20px;
+    background-color: #ffffff6b;
+}
+nav ul li {
+    display: none;
+}
+img#panda {
+    height: 70px;
+    width: 110px;
+    position: fixed;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.432);
+
+}
+nav {
+    width: 100%;
+    background-color: white;
+    height: 100px;
+}
+body {
+    background-color: white;
+    padding: 0px 30px;
+}
+main {
+    padding: 0px 30px;
+}
+figure {
+    
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row; 
+    border-bottom: 2px solid rgba(128, 128, 128, 0.39);
+    padding-bottom: 30px;
+}
+figure div {
+    display: inline;
+    margin: 0px 5%;
+}
+
+div#book-detail {
+    width: 100%;
+
+}
+div#book-detail h3 {
+    letter-spacing:0.2em;
+    font-weight: bolder;
+    font-size: 15px;
+}
+div#book-detail p {
+    border-top:2.5px solid rgba(128, 128, 128, 0.39);
+    font-size: 15px;
+
+}
+div#book-detail article{
+    color:grey;
+    font-weight: bold;
+    border: none;
+}
+div#book-detail{
+    margin: 25px 0px;
+    display: block;
+}
+
+figcaption {
+    width: 60%;
+    display: flex;
+
+}
+figure img {
+
+    min-width: 30%;
+    height: 35%;
+    width: 45%;
+    
+    border-top: 30px solid rgba(128, 128, 128, 0.39);
+    border-bottom: 30px solid rgba(128, 128, 128, 0.39);
+    margin-right: 15px;
+}
+.fas-fa-star {
+    color: #f7b733;
+    font-size: 0.5em;
+}
+button {
+    background-color: #f2849e;
+    color: white;
+    width: 60%;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0.5em 1.8em;
+}
+button:hover {
+    background-color:#ed4b74;
+}
+div#available {
+    border-bottom: 2.5px solid rgba(128, 128, 128, 0.39);
+
+}
+div#details{
+    border-bottom: 2.5px solid rgba(128, 128, 128, 0.39);
+}
+div#details ul li {
+    list-style-type: none;  
+    margin: 7px 0px;  
+}
+article {
+    border-bottom: 2.5px solid rgba(128, 128, 128, 0.39);
+    
+}
